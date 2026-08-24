@@ -54,7 +54,7 @@
     <!--begin::Accessibility Features-->
     <!-- Skip links will be dynamically added by accessibility.js -->
     <meta name="supported-color-schemes" content="light dark" />
-    <link rel="preload" href="{{ asset('assets/dist/css/adminlte.css') }}" as="style" />
+    <link rel="preload" href="{{ asset('dist/css/adminlte.css') }}" as="style" />
     <!--end::Accessibility Features-->
 
     <!--begin::Fonts-->
@@ -85,7 +85,7 @@
     <!--end::Third Party Plugin(Bootstrap Icons)-->
 
     <!--begin::Required Plugin(AdminLTE)-->
-    <link rel="stylesheet" href="{{ asset('assets/dist/css/adminlte.css') }}" />
+    <link rel="stylesheet" href="{{ asset('dist/css/adminlte.css') }}" />
     <!--end::Required Plugin(AdminLTE)-->
 
     <!-- apexcharts -->
@@ -152,7 +152,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="{{ asset('assets/dist/assets/img/user1-128x128.jpg') }}"
+                        src="{{ asset('dist/assets/img/user1-128x128.jpg') }}"
                         alt=""
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -178,7 +178,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="{{ asset('assets/dist/assets/img/user8-128x128.jpg') }}"
+                        src="{{ asset('dist/assets/img/user8-128x128.jpg') }}"
                         alt=""
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -204,7 +204,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="{{ asset('assets/dist/assets/img/user3-128x128.jpg') }}"
+                        src="{{ asset('dist/assets/img/user3-128x128.jpg') }}"
                         alt=""
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -341,7 +341,7 @@
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 <img
-                  src="{{ asset('assets/dist/assets/img/user2-160x160.jpg') }}"
+                  src="{{ asset('dist/assets/img/user2-160x160.jpg') }}"
                   class="user-image rounded-circle shadow"
                   alt="Alexander Pierce"
                 />
@@ -351,7 +351,7 @@
                 <!--begin::User Image-->
                 <li class="user-header text-bg-primary">
                   <img
-                    src="{{ asset('assets/dist/assets/img/user2-160x160.jpg') }}"
+                    src="{{ asset('dist/assets/img/user2-160x160.jpg') }}"
                     class="rounded-circle shadow"
                     alt="Alexander Pierce"
                   />
@@ -401,7 +401,7 @@
           <a href="./index.html" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="{{ asset('assets/dist/assets/img/AdminLTELogo.png') }}"
+              src="{{ asset('dist/assets/img/AdminLTELogo.png') }}"
               alt="AdminLTE Logo"
               class="brand-image opacity-75 shadow"
             />
@@ -1322,7 +1322,7 @@
                             <!-- /.direct-chat-infos -->
                             <img
                               class="direct-chat-img"
-                              src="{{ asset('assets/dist/assets/img/user3-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user3-128x128.jpg') }}"
                               alt="message user image"
                             />
                             <!-- /.direct-chat-img -->
@@ -1340,7 +1340,7 @@
                             <!-- /.direct-chat-infos -->
                             <img
                               class="direct-chat-img"
-                              src="{{ asset('assets/dist/assets/img/user1-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user1-128x128.jpg') }}"
                               alt="message user image"
                             />
                             <!-- /.direct-chat-img -->
@@ -1362,7 +1362,7 @@
                             <!-- /.direct-chat-infos -->
                             <img
                               class="direct-chat-img"
-                              src="{{ asset('assets/dist/assets/img/user3-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user3-128x128.jpg') }}"
                               alt="message user image"
                             />
                             <!-- /.direct-chat-img -->
@@ -1380,7 +1380,7 @@
                               <a href="#">
                                 <img
                                   class="contacts-list-img"
-                                  src="{{ asset('assets/dist/assets/img/user1-128x128.jpg') }}"
+                                  src="{{ asset('dist/assets/img/user1-128x128.jpg') }}"
                                   alt="User Avatar"
                                 />
 
@@ -1401,7 +1401,7 @@
                               <a href="#">
                                 <img
                                   class="contacts-list-img"
-                                  src="{{ asset('assets/dist/assets/img/user7-128x128.jpg') }}"
+                                  src="{{ asset('dist/assets/img/user7-128x128.jpg') }}"
                                   alt="User Avatar"
                                 />
 
@@ -1420,7 +1420,7 @@
                               <a href="#">
                                 <img
                                   class="contacts-list-img"
-                                  src="{{ asset('assets/dist/assets/img/user3-128x128.jpg') }}"
+                                  src="{{ asset('dist/assets/img/user3-128x128.jpg') }}"
                                   alt="User Avatar"
                                 />
 
@@ -1439,7 +1439,7 @@
                               <a href="#">
                                 <img
                                   class="contacts-list-img"
-                                  src="{{ asset('assets/dist/assets/img/user5-128x128.jpg') }}"
+                                  src="{{ asset('dist/assets/img/user5-128x128.jpg') }}"
                                   alt="User Avatar"
                                 />
 
@@ -1458,7 +1458,7 @@
                               <a href="#">
                                 <img
                                   class="contacts-list-img"
-                                  src="{{ asset('assets/dist/assets/img/user6-128x128.jpg') }}"
+                                  src="{{ asset('dist/assets/img/user6-128x128.jpg') }}"
                                   alt="User Avatar"
                                 />
 
@@ -1477,7 +1477,7 @@
                               <a href="#">
                                 <img
                                   class="contacts-list-img"
-                                  src="{{ asset('assets/dist/assets/img/user8-128x128.jpg') }}"
+                                  src="{{ asset('dist/assets/img/user8-128x128.jpg') }}"
                                   alt="User Avatar"
                                 />
 
@@ -1552,7 +1552,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user1-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user1-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1566,7 +1566,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user1-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user1-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1580,7 +1580,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user7-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user7-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1594,7 +1594,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user6-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user6-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1608,7 +1608,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user2-160x160.jpg') }}"
+                              src="{{ asset('dist/assets/img/user2-160x160.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1622,7 +1622,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user5-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user5-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1636,7 +1636,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets/img/user4-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user4-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -1650,7 +1650,7 @@
                           <div class="col-3 p-2">
                             <img
                               class="img-fluid rounded-circle"
-                              src="{{ asset('assets/dist/assets//img/user3-128x128.jpg') }}"
+                              src="{{ asset('dist/assets/img/user3-128x128.jpg') }}"
                               alt="User Image"
                             />
                             <a
@@ -2001,7 +2001,7 @@
                       <div class="d-flex border-top py-2 px-1">
                         <div class="col-2">
                           <img
-                            src="{{ asset('assets/dist/assets/img/default-150x150.png') }}"
+                            src="{{ asset('dist/assets/img/default-150x150.png') }}"
                             alt="Product Image"
                             class="img-size-50"
                           />
@@ -2018,7 +2018,7 @@
                       <div class="d-flex border-top py-2 px-1">
                         <div class="col-2">
                           <img
-                            src="{{ asset('assets/dist/assets/img/default-150x150.png') }}"
+                            src="{{ asset('dist/assets/img/default-150x150.png') }}"
                             alt="Product Image"
                             class="img-size-50"
                           />
@@ -2037,7 +2037,7 @@
                       <div class="d-flex border-top py-2 px-1">
                         <div class="col-2">
                           <img
-                            src="{{ asset('assets/dist/assets/img/default-150x150.png') }}"
+                            src="{{ asset('dist/assets/img/default-150x150.png') }}"
                             alt="Product Image"
                             class="img-size-50"
                           />
@@ -2056,7 +2056,7 @@
                       <div class="d-flex border-top py-2 px-1">
                         <div class="col-2">
                           <img
-                            src="{{ asset('assets/dist/assets/img/default-150x150.png') }}"
+                            src="{{ asset('dist/assets/img/default-150x150.png') }}"
                             alt="Product Image"
                             class="img-size-50"
                           />
@@ -2122,7 +2122,7 @@
       crossorigin="anonymous"
     ></script>
     <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
-    <script src="{{ asset('assets/dist/js/adminlte.js') }}"></script>
+    <script src="{{ asset('dist/assets/js/adminlte.js') }}"></script>
     <!--end::Required Plugin(AdminLTE)-->
     <!--begin::OverlayScrollbars Configure-->
     <script>
