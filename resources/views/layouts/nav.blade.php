@@ -17,17 +17,8 @@
             </li>
 
             <li class="nav-item d-none d-md-block">
-              <a href="#" class="nav-link">
-                <i class="bi bi-grid-1x2 me-1" aria-hidden="true"></i>
-                Live preview
-              </a>
-            </li>
-            <li class="nav-item d-none d-md-block">
-              <a href="./docs/introduction.html" class="nav-link">
-                <i class="bi bi-book me-1" aria-hidden="true"></i>
-                Documentation
-              </a>
-            </li>
+             
+            
           </ul>
           <!--end::Start Navbar Links-->
 

@@ -12,7 +12,7 @@
             />
             <!--end::Brand Image-->
             <!--begin::Brand Text-->
-            <span class="brand-text fw-light">AdminLTE 4</span>
+            <span class="brand-text fw-light">SEGERES V1.0</span>
             <!--end::Brand Text-->
           </a>
           <!--end::Brand Link-->
@@ -28,7 +28,50 @@
               data-accordion="false"
               id="navigation"
             >
-            
+            <li class="nav-item">
+                <a href="{{ route('frontend.index') }}" class="nav-link">
+                  <i class="nav-icon bi bi-bar-chart"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="{{ route('frontend.cozinha') }}" class="nav-link">
+                  <i class="nav-icon bi bi-egg-fried"></i>
+                  <p>Cozinha</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="{{ route('frontend.menu') }}" class="nav-link">
+                  <i class="nav-icon bi bi-journal-text"></i>
+                  <p>Menu</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="{{ route('frontend.pos') }}" class="nav-link">
+                  <i class="nav-icon bi bi-cart"></i>
+                  <p>POS</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="{{ route('frontend.reservas') }}" class="nav-link">
+                  <i class="nav-icon bi bi-table"></i>
+                  <p>Reservas</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="{{ route('frontend.users') }}" class="nav-link">
+                  <i class="nav-icon bi bi-people"></i>
+                  <p>Users</p>
+                </a>
+              </li>
+
+
+
               <li class="nav-header">PAGES</li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
@@ -39,6 +82,7 @@
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
+                  
                   <li class="nav-item">
                     <a href="#" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
@@ -130,26 +174,14 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-people"></i>
-                  <p>Users</p>
-                </a>
-              </li>
-
+              
               
             </ul>
             <!--end::Sidebar Menu-->
 
             <!-- Docs CTA (bottom of sidebar) -->
             <div class="p-3 mt-3 border-top border-secondary border-opacity-25">
-              <a
-                href="./docs/introduction.html"
-                class="btn btn-sm btn-outline-light w-100 d-flex align-items-center justify-content-center gap-2"
-              >
-                <i class="bi bi-book" aria-hidden="true"></i>
-                View documentation
-              </a>
+              
             </div>
           </nav>
         </div>

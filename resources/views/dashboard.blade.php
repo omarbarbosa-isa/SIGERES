@@ -914,74 +914,7 @@
                 </div>
                 <!-- /.info-box -->
 
-                <div class="card mb-4">
-                  <div class="card-header">
-                    <h3 class="card-title">Browser Usage</h3>
-
-                    <div class="card-tools">
-                      <button
-                        type="button"
-                        class="btn btn-tool"
-                        data-lte-toggle="card-collapse"
-                        aria-label="Collapse card"
-                      >
-                        <i data-lte-icon="expand" class="bi bi-plus-lg"></i>
-                        <i data-lte-icon="collapse" class="bi bi-dash-lg"></i>
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-tool"
-                        data-lte-toggle="card-remove"
-                        aria-label="Remove card"
-                      >
-                        <i class="bi bi-x-lg"></i>
-                      </button>
-                    </div>
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body">
-                    <!--begin::Row-->
-                    <div class="row">
-                      <div class="col-12">
-                        <div id="pie-chart"></div>
-                      </div>
-                      <!-- /.col -->
-                    </div>
-                    <!--end::Row-->
-                  </div>
-                  <!-- /.card-body -->
-                  <div class="card-footer p-0">
-                    <ul class="nav nav-pills flex-column">
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">
-                          United States of America
-                          <span class="float-end text-danger">
-                            <i class="bi bi-arrow-down fs-7"></i>
-                            12%
-                          </span>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">
-                          India
-                          <span class="float-end text-success">
-                            <i class="bi bi-arrow-up fs-7"></i> 4%
-                          </span>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">
-                          China
-                          <span class="float-end text-info">
-                            <i class="bi bi-arrow-left fs-7"></i> 0%
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- /.footer -->
-                </div>
-                <!-- /.card -->
+               
 
                 <!-- PRODUCT LIST -->
                 <div class="card">

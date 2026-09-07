@@ -1,0 +1,7 @@
+ @extends('layouts.base')   
+
+ @section('content')
+
+<h2 class="text-center">Menu</h2>
+
+ @endsection
