@@ -12,11 +12,11 @@ class Frontendcontroller extends Controller
     }
 
      public function cozinha(Request $request){
-        return view('pages.cozinha');
+        return view('pages.cozinha.index');
     }
 
     public function menu(Request $request){
-        return view('pages.menu');
+        return view('pages.menu.index');
     }
 
     public function pos(Request $request){
@@ -24,11 +24,11 @@ class Frontendcontroller extends Controller
     }
 
      public function reservas(Request $request){
-        return view('pages.reservas');
+        return view('pages.reservas.index');
     }
 
     public function users(Request $request){
-        return view('pages.users');
+        return view('pages.users.index');
     }
    
 }

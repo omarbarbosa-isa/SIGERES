@@ -64,7 +64,7 @@
               </li>
 
               <li class="nav-item">
-                <a href="{{ route('frontend.users') }}" class="nav-link">
+                <a href="{{ route('users.index') }}" class="nav-link">
                   <i class="nav-icon bi bi-people"></i>
                   <p>Users</p>
                 </a>

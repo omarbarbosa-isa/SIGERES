@@ -307,7 +307,7 @@
                           <!-- Message. Default to the start -->
                           <div class="direct-chat-msg">
                             <div class="direct-chat-infos clearfix">
-                              <span class="direct-chat-name float-start"> Alexander Pierce </span>
+                              <span class="direct-chat-name float-start"> Omar Barbosa </span>
                               <span class="direct-chat-timestamp float-end"> 23 Jan 2:00 pm </span>
                             </div>
                             <!-- /.direct-chat-infos -->
@@ -347,7 +347,7 @@
                           <!-- Message. Default to the start -->
                           <div class="direct-chat-msg">
                             <div class="direct-chat-infos clearfix">
-                              <span class="direct-chat-name float-start"> Alexander Pierce </span>
+                              <span class="direct-chat-name float-start"> Omar Barbosa </span>
                               <span class="direct-chat-timestamp float-end"> 23 Jan 5:37 pm </span>
                             </div>
                             <!-- /.direct-chat-infos -->
@@ -572,7 +572,7 @@
                               class="btn fw-bold fs-7 text-secondary text-truncate w-100 p-0"
                               href="#"
                             >
-                              Alexander Pierce
+                              Omar Barbosa
                             </a>
                             <div class="fs-8">Today</div>
                           </div>
@@ -628,7 +628,7 @@
                               class="btn fw-bold fs-7 text-secondary text-truncate w-100 p-0"
                               href="#"
                             >
-                              Alexander
+                              Omar
                             </a>
                             <div class="fs-8">13 Jan</div>
                           </div>

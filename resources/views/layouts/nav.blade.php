@@ -1,5 +1,7 @@
  <!--begin::Header-->
-      <nav class="app-header navbar navbar-expand bg-body">
+      </nav>
+      <!--end::Header-->
+       <nav class="app-header navbar navbar-expand bg-body">
         <!--begin::Container-->
         <div class="container-fluid">
           <!--begin::Start Navbar Links-->
@@ -17,8 +19,17 @@
             </li>
 
             <li class="nav-item d-none d-md-block">
-             
-            
+              <a href="#" class="nav-link">
+                <i class="bi bi-grid-1x2 me-1" aria-hidden="true"></i>
+                Visualização Oniline
+              </a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a href="#" class="nav-link">
+                <i class="bi bi-book me-1" aria-hidden="true"></i>
+                Documentação
+              </a>
+            </li>
           </ul>
           <!--end::Start Navbar Links-->
 
@@ -33,7 +44,7 @@
                 aria-label="Messages: 3 unread"
               >
                 <i class="bi bi-chat-text"></i>
-                <span class="navbar-badge badge text-bg-danger">3</span>
+                <span class="navbar-badge badge text-bg-danger">998</span>
               </a>
               <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <a href="#" class="dropdown-item">
@@ -48,14 +59,14 @@
                     </div>
                     <div class="flex-grow-1">
                       <p class="dropdown-item-title">
-                        Brad Diesel
+                        Gulamo Amade
                         <span class="float-end fs-7 text-danger"
                           ><i class="bi bi-star-fill"></i
                         ></span>
                       </p>
-                      <p class="fs-7">Call me whenever you can...</p>
+                      <p class="fs-7">Ligue-me assim que possivel...</p>
                       <p class="fs-7 text-secondary">
-                        <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
+                        <i class="bi bi-clock-fill me-1"></i> 4 Horas atrás
                       </p>
                     </div>
                   </div>
@@ -74,14 +85,14 @@
                     </div>
                     <div class="flex-grow-1">
                       <p class="dropdown-item-title">
-                        John Pierce
+                        Alberto Dias
                         <span class="float-end fs-7 text-secondary">
                           <i class="bi bi-star-fill"></i>
                         </span>
                       </p>
-                      <p class="fs-7">I got your message bro</p>
+                      <p class="fs-7">Vi sua mensagem</p>
                       <p class="fs-7 text-secondary">
-                        <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
+                        <i class="bi bi-clock-fill me-1"></i> 7 Horas atrás
                       </p>
                     </div>
                   </div>
@@ -93,28 +104,28 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="{{ asset('dist/assets/img/user3-128x128.jpg') }}"
+                        src="{{ asset('dist/assets/img/user8-128x128.jpg') }}"
                         alt=""
                         class="img-size-50 rounded-circle me-3"
                       />
                     </div>
                     <div class="flex-grow-1">
                       <p class="dropdown-item-title">
-                        Nora Silvester
+                        Yolanda Will
                         <span class="float-end fs-7 text-warning">
                           <i class="bi bi-star-fill"></i>
                         </span>
                       </p>
-                      <p class="fs-7">The subject goes here</p>
+                      <p class="fs-7">Desde não atendes! </p>
                       <p class="fs-7 text-secondary">
-                        <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
+                        <i class="bi bi-clock-fill me-1"></i> 9 Horas atrás
                       </p>
                     </div>
                   </div>
                   <!--end::Message-->
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                <a href="#" class="dropdown-item dropdown-footer">Ver todas as mensagens</a>
               </div>
             </li>
             <!--end::Messages Dropdown Menu-->
@@ -128,27 +139,27 @@
                 aria-label="Notifications: 15 unread"
               >
                 <i class="bi bi-bell-fill"></i>
-                <span class="navbar-badge badge text-bg-warning">15</span>
+                <span class="navbar-badge badge text-bg-warning">+999</span>
               </a>
               <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                <span class="dropdown-item dropdown-header">15 Notifications</span>
+                <span class="dropdown-item dropdown-header">+999 Notificações</span>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                  <i class="bi bi-envelope me-2"></i> 4 new messages
+                  <i class="bi bi-envelope me-2"></i> 998 Novas mensagens
                   <span class="float-end text-secondary fs-7">3 mins</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                  <i class="bi bi-people-fill me-2"></i> 8 friend requests
-                  <span class="float-end text-secondary fs-7">12 hours</span>
+                  <i class="bi bi-people-fill me-2"></i> 12 pedidos de amizade
+                  <span class="float-end text-secondary fs-7">12 Horas</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                  <i class="bi bi-file-earmark-fill me-2"></i> 3 new reports
+                  <i class="bi bi-file-earmark-fill me-2"></i> 3 novos reportes
                   <span class="float-end text-secondary fs-7">2 days</span>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item dropdown-footer"> See All Notifications </a>
+                <a href="#" class="dropdown-item dropdown-footer"> Ver todas as notificações </a>
               </div>
             </li>
             <!--end::Notifications Dropdown Menu-->
@@ -194,7 +205,7 @@
                     aria-pressed="false"
                   >
                     <i class="bi bi-sun-fill me-2"></i>
-                    Light
+                    Claro
                     <i class="bi bi-check-lg ms-auto d-none"></i>
                   </button>
                 </li>
@@ -206,7 +217,7 @@
                     aria-pressed="false"
                   >
                     <i class="bi bi-moon-fill me-2"></i>
-                    Dark
+                    Escuro
                     <i class="bi bi-check-lg ms-auto d-none"></i>
                   </button>
                 </li>
@@ -230,11 +241,11 @@
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 <img
-                  src="{{ asset('dist/assets/img/user2-160x160.jpg') }}"
+                  src="{{ ('dist/assets/img/user2-160x160.jpg') }}"
                   class="user-image rounded-circle shadow"
                   alt="Alexander Pierce"
                 />
-                <span class="d-none d-md-inline">Alexander Pierce</span>
+                <span class="d-none d-md-inline">Omar Barbosa</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
@@ -245,8 +256,8 @@
                     alt="Alexander Pierce"
                   />
                   <p>
-                    Alexander Pierce - Web Developer
-                    <small>Member since Nov. 2023</small>
+                    Omar barbosa - Web Densevolvedor
+                    <small>Membro desde Abr. 2026</small>
                   </p>
                 </li>
                 <!--end::User Image-->
@@ -255,13 +266,13 @@
                   <!--begin::Row-->
                   <div class="row">
                     <div class="col-4 text-center">
-                      <a href="#">Followers</a>
+                      <a href="#">Seguidores</a>
                     </div>
                     <div class="col-4 text-center">
-                      <a href="#">Sales</a>
+                      <a href="#">Vendas</a>
                     </div>
                     <div class="col-4 text-center">
-                      <a href="#">Friends</a>
+                      <a href="#">Amigos</a>
                     </div>
                   </div>
                   <!--end::Row-->
@@ -269,8 +280,8 @@
                 <!--end::Menu Body-->
                 <!--begin::Menu Footer-->
                 <li class="user-footer">
-                  <a href="#" class="btn btn-outline-secondary">Profile</a>
-                  <a href="#" class="btn btn-outline-danger float-end">Sign out</a>
+                  <a href="#" class="btn btn-outline-secondary">Perfil</a>
+                  <a href="#" class="btn btn-outline-danger float-end">Sair</a>
                 </li>
                 <!--end::Menu Footer-->
               </ul>
@@ -281,4 +292,3 @@
         </div>
         <!--end::Container-->
       </nav>
-      <!--end::Header-->
