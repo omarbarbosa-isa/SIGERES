@@ -18,6 +18,7 @@
                 </nav>
               </div>
             </div>
+            <button type="button" class="btn btn-outline-success mb-2">Criar user</button>
           </div>
         </div>
         <div class="app-content">
@@ -40,27 +41,103 @@
                   </div>
                 </div>
               </div>
-              <div class="card-body">
-                <div class="d-flex gap-2 mb-3">
-                  <button id="export-csv" type="button" class="btn btn-sm btn-outline-secondary">
-                    <i class="bi bi-filetype-csv me-1" aria-hidden="true"></i>
-                    Export CSV
-                  </button>
-                  <button id="export-json" type="button" class="btn btn-sm btn-outline-secondary">
-                    <i class="bi bi-filetype-json me-1" aria-hidden="true"></i>
-                    Export JSON
-                  </button>
-                  <button id="print-table" type="button" class="btn btn-sm btn-outline-secondary">
-                    <i class="bi bi-printer me-1" aria-hidden="true"></i>
-                    Print
-                  </button>
-                </div>
+
+              <!--<div class="card-body"> -->
+                
                 <div id="users-table"></div>
+
+                 <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th style="width: 10px">#</th>
+                          <th>Tarefas</th>
+                          <th>Estado</th>
+                          <th style="width: 40px">Progresso</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="align-middle">
+                          <td>1.</td>
+                          <td>Registar novo utilizador</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div
+                                class="progress-bar progress-bar-danger"
+                                style="width: 76%"
+                              ></div>
+                            </div>
+                          </td>
+                          <td><span class="badge text-bg-danger">76%</span></td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>2.</td>
+                          <td>Editar dados do utilizador</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div
+                                class="progress-bar progress-bar-danger"
+                                style="width: 66%"
+                              ></div>
+                            </div>
+                          </td>
+                          <td><span class="badge text-bg-danger">66%</span></td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>3.</td>
+                          <td>Definir níveis de acesso</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div
+                                class="progress-bar progress-bar-danger"
+                                style="width: 35%"
+                              ></div>
+                            </div>
+                          </td>
+                          <td><span class="badge text-bg-danger">35%</span></td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>4.</td>
+                          <td>Activar ou desactivar utilizadores</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div class="progress-bar text-bg-warning" style="width: 100%"></div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge text-bg-warning">100%</span>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>5.</td>
+                          <td>Consultar lista de utilizadores</td>
+                          <td>
+                            <div class="progress progress-xs progress-striped active">
+                              <div class="progress-bar text-bg-primary" style="width: 90%"></div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge text-bg-primary">90%</span>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>6.</td>
+                          <td>Actualizar permissões</td>
+                          <td>
+                            <div class="progress progress-xs progress-striped active">
+                              <div class="progress-bar text-bg-success" style="width: 100%"></div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge text-bg-success">100%</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
               </div>
               <div class="card-footer text-secondary small">
                 Powered by
-                <a href="https://tabulator.info/" target="_blank" rel="noopener">Tabulator</a>
-                &mdash; vanilla JS, no jQuery required.
+                <a href="https://tabulator.info/" target="_blank" rel="noopener">Omar Barbosa</a>
+                &mdash; Sistema de Gestão de Restaurantes.
               </div>
             </div>
           </div>

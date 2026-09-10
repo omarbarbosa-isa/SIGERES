@@ -36,28 +36,28 @@
               </li>
 
               <li class="nav-item">
-                <a href="{{ route('frontend.cozinha') }}" class="nav-link">
+                <a href="{{ route('cozinha.index') }}" class="nav-link">
                   <i class="nav-icon bi bi-egg-fried"></i>
                   <p>Cozinha</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="{{ route('frontend.menu') }}" class="nav-link">
+                <a href="{{ route('menu.index') }}" class="nav-link">
                   <i class="nav-icon bi bi-journal-text"></i>
                   <p>Menu</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="{{ route('frontend.pos') }}" class="nav-link">
+                <a href="{{ route('pos.index') }}" class="nav-link">
                   <i class="nav-icon bi bi-cart"></i>
                   <p>POS</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="{{ route('frontend.reservas') }}" class="nav-link">
+                <a href="{{ route('reservas.index') }}" class="nav-link">
                   <i class="nav-icon bi bi-table"></i>
                   <p>Reservas</p>
                 </a>

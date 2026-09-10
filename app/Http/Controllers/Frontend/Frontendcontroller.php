@@ -20,7 +20,7 @@ class Frontendcontroller extends Controller
     }
 
     public function pos(Request $request){
-        return view('pages.pos');
+        return view('pages.pos.index');
     }
 
      public function reservas(Request $request){

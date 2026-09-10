@@ -2,7 +2,7 @@
 
  @section('content')
 
-<main class="app-main">
+ <main class="app-main">
         <div class="app-content-header">
           <div class="container-fluid">
             <div class="row">
@@ -18,6 +18,7 @@
                 </nav>
               </div>
             </div>
+            <button type="button" class="btn btn-outline-success mb-2">Criar menu</button>
           </div>
         </div>
         <div class="app-content">
@@ -40,31 +41,108 @@
                   </div>
                 </div>
               </div>
-              <div class="card-body">
-                <div class="d-flex gap-2 mb-3">
-                  <button id="export-csv" type="button" class="btn btn-sm btn-outline-secondary">
-                    <i class="bi bi-filetype-csv me-1" aria-hidden="true"></i>
-                    Export CSV
-                  </button>
-                  <button id="export-json" type="button" class="btn btn-sm btn-outline-secondary">
-                    <i class="bi bi-filetype-json me-1" aria-hidden="true"></i>
-                    Export JSON
-                  </button>
-                  <button id="print-table" type="button" class="btn btn-sm btn-outline-secondary">
-                    <i class="bi bi-printer me-1" aria-hidden="true"></i>
-                    Print
-                  </button>
-                </div>
+
+              <!--<div class="card-body"> -->
+                
                 <div id="users-table"></div>
+
+                 <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th style="width: 10px">#</th>
+                          <th>Tarefas</th>
+                          <th>Estado</th>
+                          <th style="width: 40px">Progresso</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="align-middle">
+                          <td>1.</td>
+                          <td>Adicionar pratos ao menu</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div
+                                class="progress-bar progress-bar-danger"
+                                style="width: 60%"
+                              ></div>
+                            </div>
+                          </td>
+                          <td><span class="badge text-bg-danger">60%</span></td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>2.</td>
+                          <td>Editar informações dos pratos</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div
+                                class="progress-bar progress-bar-danger"
+                                style="width: 34%"
+                              ></div>
+                            </div>
+                          </td>
+                          <td><span class="badge text-bg-danger">34%</span></td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>3.</td>
+                          <td>Atualizar preços</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div
+                                class="progress-bar progress-bar-danger"
+                                style="width: 3%"
+                              ></div>
+                            </div>
+                          </td>
+                          <td><span class="badge text-bg-danger">3%</span></td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>4.</td>
+                          <td>Organizar categorias</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div class="progress-bar text-bg-warning" style="width: 20%"></div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge text-bg-warning">20%</span>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>5.</td>
+                          <td>Verificar disponibilidade dos pratos</td>
+                          <td>
+                            <div class="progress progress-xs progress-striped active">
+                              <div class="progress-bar text-bg-primary" style="width: 50%"></div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge text-bg-primary">50%</span>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <td>6.</td>
+                          <td>Remover pratos indisponíveis</td>
+                          <td>
+                            <div class="progress progress-xs progress-striped active">
+                              <div class="progress-bar text-bg-success" style="width: 97%"></div>
+                            </div>
+                          </td>
+                          <td>
+                            <span class="badge text-bg-success">97%</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
               </div>
               <div class="card-footer text-secondary small">
                 Powered by
-                <a href="https://tabulator.info/" target="_blank" rel="noopener">Tabulator</a>
-                &mdash; vanilla JS, no jQuery required.
+                <a href="https://tabulator.info/" target="_blank" rel="noopener">Omar Barbosa</a>
+                &mdash; Sistema de Gestão de Restaurantes.
               </div>
             </div>
           </div>
         </div>
       </main>
+      
 
  @endsection
