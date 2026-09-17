@@ -8,4 +8,7 @@ Route::get('/cozinha', [Frontendcontroller::class, 'cozinha'])->name('cozinha.in
 Route::get('/menu', [Frontendcontroller::class, 'menu'])->name('menu.index');
 Route::get('/pos', [Frontendcontroller::class, 'pos'])->name('pos.index');
 Route::get('/reservas', [Frontendcontroller::class, 'reservas'])->name('reservas.index');
+
+// Rotas da entidade Users
 Route::get('/users', [Frontendcontroller::class, 'users'])->name('users.index');
+Route::get('/users/create', [Frontendcontroller::class, 'createUsers'])->name('users.create');

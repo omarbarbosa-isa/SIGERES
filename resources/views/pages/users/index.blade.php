@@ -18,7 +18,7 @@
                 </nav>
               </div>
             </div>
-            <button type="button" class="btn btn-outline-success mb-2">Criar user</button>
+            <a type="button" href="{{ route('users.create')}}" class="btn btn-outline-success mb-2">Criar user</a>
           </div>
         </div>
         <div class="app-content">
